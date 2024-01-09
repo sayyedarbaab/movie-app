@@ -74,9 +74,16 @@ handleToggleCart=(movie)=>{
                 decStars={this.handleDecStars}
                 toggleFav={this.handleToggleFav}
                 toggleCart={this.handleToggleCart} />
-    {/* <HeadingOne />
-    <HeadingTwo /> */}
-    {/* <ParentPost /> */}
+                <MovieList movies={movies}
+                addStars={this.handleIncStars}
+                decStars={this.handleDecStars}
+                toggleFav={this.handleToggleFav}
+                toggleCart={this.handleToggleCart} />
+                <MovieList movies={movies}
+                addStars={this.handleIncStars}
+                decStars={this.handleDecStars}
+                toggleFav={this.handleToggleFav}
+                toggleCart={this.handleToggleCart} />
     </div>
     )
   }
