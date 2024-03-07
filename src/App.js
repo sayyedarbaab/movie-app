@@ -74,7 +74,7 @@ handleToggleCart=(movie)=>{
                 decStars={this.handleDecStars}
                 toggleFav={this.handleToggleFav}
                 toggleCart={this.handleToggleCart} />
-                <MovieList movies={movies}
+                {/* <MovieList movies={movies}
                 addStars={this.handleIncStars}
                 decStars={this.handleDecStars}
                 toggleFav={this.handleToggleFav}
@@ -83,7 +83,7 @@ handleToggleCart=(movie)=>{
                 addStars={this.handleIncStars}
                 decStars={this.handleDecStars}
                 toggleFav={this.handleToggleFav}
-                toggleCart={this.handleToggleCart} />
+                toggleCart={this.handleToggleCart} /> */}
     </div>
     )
   }
